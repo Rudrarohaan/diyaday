@@ -1,10 +1,29 @@
-.envelope {
+/* Updated card size and positioning */
+.card {
     width: 500px;
     height: 500px;
 }
 
-/* Update positioning calculations accordingly */
-.card {
-    position: relative;
-    /* Additional positioning styles */
+#envelope {
+    width: 500px;
+    height: 500px;
+    top: calc(50vh - 250px);
+    left: calc(50vw - 250px);
+}
+
+button {
+    /* Adjusting button positions */
+    top: calc(250px - 25px);
+    left: calc(250px - 25px);
+}
+
+@keyframes makebig {
+    0% {
+        margin: 0;
+    }
+    100% {
+        margin: 100px;
+        width: 500px;
+        height: 500px;
+    }
 }

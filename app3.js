@@ -6,7 +6,7 @@ var w = c.width = window.innerWidth,
 		hh = h / 2,
 		
 		opts = {
-			strings: [ 'HAPPY', 'BIRTHDAY','HETVI ' ],
+			strings: [ 'HAPPY', 'BIRTHDAY','HETVI' ],
 			charSize: 30,
 			charSpacing: 35,
 			lineHeight: 40,
@@ -401,4 +401,5 @@ window.addEventListener( 'resize', function(){
 	ctx.font = opts.charSize + 'px Verdana';
 
 })
+
 

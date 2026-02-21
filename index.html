@@ -1,4 +1,43 @@
-<!-- Updated SVG dimensions -->
-<svg width="500" height="500">
-    <!-- Your existing SVG content here -->
-</svg>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIY A Day</title>
+    <link rel="stylesheet" href="open.css">
+    <script>
+        function openUp() {
+            // JavaScript function logic here
+        }
+    </script>
+</head>
+<body>
+    <div class="text">
+        <h1>DIY A Day</h1>
+    </div>
+    <div class="envelope">
+        <div class="back">
+            <svg height="500" width="500">
+                <!-- SVG back content -->
+            </svg>
+        </div>
+        <div class="front">
+            <svg height="500" width="500">
+                <!-- SVG front content -->
+            </svg>
+        </div>
+        <div class="top">
+            <svg height="500" width="500">
+                <animate attributeName="opacity" from="0" to="1" begin="0s" dur="2s" fill="freeze" />
+                <!-- SVG top content -->
+            </svg>
+        </div>
+    </div>
+    <div class="letter">
+        <h1>For Babu Janu</h1>
+        <p>Your custom message goes here.</p>
+        <a href="#">Click Here</a>
+        <button onclick="openUp()">Open Up</button>
+    </div>
+</body>
+</html>
